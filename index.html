@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ Santé</title>
+</head>
+<body>
+
+    <h1>Quiz Sport Santé </h1>
+    <img src="run.jpg" alt="sport image">    <img src="corde.jpeg" alt="sport image corde a sauter">
+
+    <form id="quiz-form">
+
+        <div class="question">
+            <label for="q1">1. Il est conseillé de faire une activité physique:</label><br>
+            <input type="radio" name="q1" value="am"> Avant midi.<br>
+            <input type="radio" name="q1" value="pi"> Peu importe.<br>
+            <input type="radio" name="q1" value="ls"> Le soir.<br>
+            <input type="radio" name="q1" value="lm"> Le matin très tôt.<br>            
+        </div>
+
+        <div class="question">
+            <label for="q2">2. L’activité physique régulière, même modérée, permet:</label><br>
+            <input type="radio" name="q2" value="direque"> De dire à tout le monde qu'on fait de l'activité physique régulière, même modérée.<br>
+            <input type="radio" name="q2" value="controlerpoids"> De contrôler son poids, de réduire le risque d'accidents cardiaques et de prévenir l'apparition du diabète de type 2.<br>
+            <input type="radio" name="q2" value="trasnpirer"> De transpirer à grosses gouttes.<br>
+            <input type="radio" name="q2" value="bodybuilder"> Devenir bodybuilder.<br>
+        </div>
+
+        <div class="question">
+            <label for="q3">3. Quelle est la durée minimale quotidienne d’activité physique recommandée chez l’adulte?</label><br>
+            <input type="radio" name="q3" value="60"> 60 minutes<br>
+            <input type="radio" name="q3" value="10"> 10 minutes <br>
+            <input type="radio" name="q3" value="Plus60"> Plus d'1 heure<br>
+            <input type="radio" name="q3" value="30"> 30 minutes<br>
+        </div>
+
+        <div class="question">
+            <label for="q4">4. À quel âge doit-on cesser de faire une activité physique régulière? </label><br>
+            <input type="radio" name="q4" value="65"> 65 ans<br>
+            <input type="radio" name="q4" value="55"> 55 ans <br>
+            <input type="radio" name="q4" value="80"> 80 ans <br>
+            <input type="radio" name="q4" value="jamais"> Jamais <br>
+        </div>
+
+        <button type="submit">Valider les réponses</button>
+    </form>
+
+    <!-- Bloc de résultats -->
+    <div id="resultat"></div>
+    <script src="script.js"></script>    
+</body>
+<!-- by taiz ceccon-->
+</html>
